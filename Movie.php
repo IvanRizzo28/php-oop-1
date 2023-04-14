@@ -4,9 +4,9 @@ class Movie{
     private string $nome;
     private int $durata;
     private int $voto;
-    private string $genere;
+    private array $genere;
 
-    public function __construct(string $nome,int $durata, int $voto, string $genere){
+    public function __construct(string $nome,int $durata, int $voto, array $genere){
         $this->nome=$nome;
         $this->durata=$durata;
         $this->voto=$voto;
